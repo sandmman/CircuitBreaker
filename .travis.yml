@@ -18,6 +18,26 @@ matrix:
       sudo: required
       env: SWIFT_SNAPSHOT=4.0
     - os: osx
+      osx_image: xcode6.4
+      sudo: required
+      env: SWIFT_SNAPSHOT=4.0
+    - os: osx
+      osx_image: xcode7.3
+      sudo: required
+      env: SWIFT_SNAPSHOT=4.0
+    - os: osx
+      osx_image: xcode8
+      sudo: required
+      env: SWIFT_SNAPSHOT=4.0
+    - os: osx
+      osx_image: xcode8.1
+      sudo: required
+      env: SWIFT_SNAPSHOT=4.0
+    - os: osx
+      osx_image: xcode8.2
+      sudo: required
+      env: SWIFT_SNAPSHOT=4.0
+    - os: osx
       osx_image: xcode8.3
       sudo: required
     - os: osx
